@@ -260,8 +260,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.9743271, z: 1}
+  m_Center: {x: 0, y: -0.012836441, z: 0}
 --- !u!23 &207742630
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -511,7 +511,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.8
+  m_Radius: 0.44
   m_Center: {x: 0, y: 0.3, z: 0}
 --- !u!1 &467745751
 GameObject:
@@ -943,8 +943,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.9511686, z: 1}
+  m_Center: {x: 0, y: -0.024415702, z: 0}
 --- !u!23 &942647235
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1594,6 +1594,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &1368580237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1368580229}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e44a968e6f454d9188cbfe16f7f2fac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!1001 &1371166228
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1887,8 +1900,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 0.98855734, z: 1}
+  m_Center: {x: 0, y: -0.005721286, z: 0}
 --- !u!23 &1423083187
 MeshRenderer:
   m_ObjectHideFlags: 0
