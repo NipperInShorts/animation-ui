@@ -25,4 +25,8 @@ public class ChestBehavior : MonoBehaviour
             animator.SetBool("isOpen", false);
         }
     }
+
+    public void ChestEventHandler() {
+        Debug.Log("Chest event handler - isOpen");
+    }
 }
